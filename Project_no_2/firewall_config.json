@@ -1,0 +1,70 @@
+{
+  "rules": [
+    {
+      "name": "Allow Outbound HTTP",
+      "action": "allow",
+      "protocol": "tcp",
+      "src_ip": null,
+      "dst_ip": null,
+      "src_port": null,
+      "dst_port": 80,
+      "enabled": true,
+      "priority": 10
+    },
+    {
+      "name": "Allow Outbound HTTPS",
+      "action": "allow",
+      "protocol": "tcp",
+      "src_ip": null,
+      "dst_ip": null,
+      "src_port": null,
+      "dst_port": 443,
+      "enabled": true,
+      "priority": 10
+    },
+    {
+      "name": "Allow Outbound DNS",
+      "action": "allow",
+      "protocol": "udp",
+      "src_ip": null,
+      "dst_ip": null,
+      "src_port": null,
+      "dst_port": 53,
+      "enabled": true,
+      "priority": 10
+    },
+    {
+      "name": "Allow Local Network",
+      "action": "allow",
+      "protocol": "all",
+      "src_ip": "192.168.*.*",
+      "dst_ip": null,
+      "src_port": null,
+      "dst_port": null,
+      "enabled": true,
+      "priority": 5
+    },
+    {
+      "name": "Allow Loopback",
+      "action": "allow",
+      "protocol": "all",
+      "src_ip": "127.0.0.1",
+      "dst_ip": null,
+      "src_port": null,
+      "dst_port": null,
+      "enabled": true,
+      "priority": 15
+    },
+    {
+      "name": "Block All Incoming",
+      "action": "block",
+      "protocol": "all",
+      "src_ip": null,
+      "dst_ip": null,
+      "src_port": null,
+      "dst_port": null,
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+}
