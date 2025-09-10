@@ -41,8 +41,8 @@
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Ved-P/p-firewall.git
-    cd p-firewall
+    git clone https://github.com/vedantkulkarni1234/internship_report.git
+    cd internship_report
     ```
 
 2.  **Install dependencies:**
