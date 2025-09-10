@@ -76,8 +76,8 @@ Get StealthyData up and running in a few simple steps.
 
 1.  **Clone the repository (or download the source):**
     ```bash
-    git clone https://github.com/your-username/Steganography.git
-    cd Steganography
+    git clone https://github.com/vedantkulkarni1234/internship_report.git
+    cd internship_report
     ```
 
 2.  **Create a virtual environment (recommended):**
